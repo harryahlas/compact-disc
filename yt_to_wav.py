@@ -12,21 +12,9 @@ from __future__ import unicode_literals
 import os
 import youtube_dl
 
-os.chdir('C:\\Users\\Anyone\\Music\\My Little Pony')
+os.chdir('C:\\Users\\Anyone\\Music\\Kreator\\Gods of Violence')
 
-url_list = ['https://www.youtube.com/watch?v=z8uFbzbtyJg',
-    'https://www.youtube.com/watch?v=dM0d9uUgVSc',
-    'https://www.youtube.com/watch?v=lQKaAlMNvm8',
-    'https://www.youtube.com/watch?v=LH75e2vjowE',
-    'https://www.youtube.com/watch?v=Eb-GsRpiezk',
-    'https://www.youtube.com/watch?v=OJM2g-3K2T0',
-    'https://www.youtube.com/watch?v=5tCPxXW_9qI',
-    'https://www.youtube.com/watch?v=lQKaAlMNvm8',
-    'https://www.youtube.com/watch?v=jW5n3k2VgZE',
-    'https://www.youtube.com/watch?v=hAXX_bPxIzY',
-    'https://www.youtube.com/watch?v=fktlkNNp8Mw',
-    'https://www.youtube.com/watch?v=uDo9KFvMNX8',
-    'https://www.youtube.com/watch?v=DGsVZZtxcP8']
+url_list = ['https://www.youtube.com/watch?v=-SzKfpBZncg']
 
 def download_youtube_music(url_address):
     ydl_opts = {

@@ -12,24 +12,26 @@ from __future__ import unicode_literals
 import os
 import youtube_dl
 
-#os.mkdir('C:\\Users\\Anyone\\Music\\Enslaved\\')
+os.mkdir('C:\\Users\\Anyone\\Music\\My Little Pony\\Movie Soundtrack')
 #os.mkdir('C:\\Users\\Anyone\\Music\\Enslaved\\E')
 
-os.chdir('C:\\Users\\Anyone\\Music\\Possessed\\Revelations of Oblivion')
+os.chdir('C:\\Users\\Anyone\\Music\\My Little Pony\\Movie Soundtrack')
 
-url_list = ['https://www.youtube.com/watch?v=tq0y5Vs-heI&list=PLfUV806q_Ri7wcsLO8hjbCEG-jXEBqrzS&index=1',
-'https://www.youtube.com/watch?v=tq0y5Vs-heI&list=PLfUV806q_Ri7wcsLO8hjbCEG-jXEBqrzS&index=2',
-'https://www.youtube.com/watch?v=tq0y5Vs-heI&list=PLfUV806q_Ri7wcsLO8hjbCEG-jXEBqrzS&index=3',
-'https://www.youtube.com/watch?v=tq0y5Vs-heI&list=PLfUV806q_Ri7wcsLO8hjbCEG-jXEBqrzS&index=4',
-'https://www.youtube.com/watch?v=tq0y5Vs-heI&list=PLfUV806q_Ri7wcsLO8hjbCEG-jXEBqrzS&index=5',
-'https://www.youtube.com/watch?v=tq0y5Vs-heI&list=PLfUV806q_Ri7wcsLO8hjbCEG-jXEBqrzS&index=6',
-'https://www.youtube.com/watch?v=tq0y5Vs-heI&list=PLfUV806q_Ri7wcsLO8hjbCEG-jXEBqrzS&index=7',
-'https://www.youtube.com/watch?v=tq0y5Vs-heI&list=PLfUV806q_Ri7wcsLO8hjbCEG-jXEBqrzS&index=8',
-'https://www.youtube.com/watch?v=tq0y5Vs-heI&list=PLfUV806q_Ri7wcsLO8hjbCEG-jXEBqrzS&index=9',
-'https://www.youtube.com/watch?v=tq0y5Vs-heI&list=PLfUV806q_Ri7wcsLO8hjbCEG-jXEBqrzS&index=10',
-'https://www.youtube.com/watch?v=tq0y5Vs-heI&list=PLfUV806q_Ri7wcsLO8hjbCEG-jXEBqrzS&index=11',
-'https://www.youtube.com/watch?v=tq0y5Vs-heI&list=PLfUV806q_Ri7wcsLO8hjbCEG-jXEBqrzS&index=12'
-]
+url_list = ['https://www.youtube.com/watch?v=BsS0bD83y1A&list=PLfc6_O5ggVzJkPKlM7AU0hye5tE-UMRy9',
+'https://www.youtube.com/watch?v=ueU7NmVC3JQ&list=PLfc6_O5ggVzJkPKlM7AU0hye5tE-UMRy9&index=2',
+'https://www.youtube.com/watch?v=ueU7NmVC3JQ&list=PLfc6_O5ggVzJkPKlM7AU0hye5tE-UMRy9&index=3',
+'https://www.youtube.com/watch?v=ueU7NmVC3JQ&list=PLfc6_O5ggVzJkPKlM7AU0hye5tE-UMRy9&index=4',
+'https://www.youtube.com/watch?v=ueU7NmVC3JQ&list=PLfc6_O5ggVzJkPKlM7AU0hye5tE-UMRy9&index=5',
+'https://www.youtube.com/watch?v=ueU7NmVC3JQ&list=PLfc6_O5ggVzJkPKlM7AU0hye5tE-UMRy9&index=6',
+'https://www.youtube.com/watch?v=ueU7NmVC3JQ&list=PLfc6_O5ggVzJkPKlM7AU0hye5tE-UMRy9&index=7',
+'https://www.youtube.com/watch?v=ueU7NmVC3JQ&list=PLfc6_O5ggVzJkPKlM7AU0hye5tE-UMRy9&index=8',
+'https://www.youtube.com/watch?v=ueU7NmVC3JQ&list=PLfc6_O5ggVzJkPKlM7AU0hye5tE-UMRy9&index=9',
+'https://www.youtube.com/watch?v=ueU7NmVC3JQ&list=PLfc6_O5ggVzJkPKlM7AU0hye5tE-UMRy9&index=10',
+'https://www.youtube.com/watch?v=ueU7NmVC3JQ&list=PLfc6_O5ggVzJkPKlM7AU0hye5tE-UMRy9&index=11',
+'https://www.youtube.com/watch?v=ueU7NmVC3JQ&list=PLfc6_O5ggVzJkPKlM7AU0hye5tE-UMRy9&index=12',
+'https://www.youtube.com/watch?v=ueU7NmVC3JQ&list=PLfc6_O5ggVzJkPKlM7AU0hye5tE-UMRy9&index=13',
+'https://www.youtube.com/watch?v=ueU7NmVC3JQ&list=PLfc6_O5ggVzJkPKlM7AU0hye5tE-UMRy9&index=14']
+
 
 def download_youtube_music(url_address):
     ydl_opts = {

@@ -12,39 +12,33 @@ from __future__ import unicode_literals
 import os
 import youtube_dl
 
-os.mkdir('C:\\Users\\Anyone\\Music\\Blind Guardian')
-os.mkdir('C:\\Users\\Anyone\\Music\\Blind Guardian\\Legacy of the Dark Lands')
-#os.mkdir('C:\\Users\\Anyone\\Music\\Enslaved\\E')
+os.mkdir('C:\\Users\\Anyone\\Music\\My Little Pony\\cd3')
 
-os.chdir('C:\\Users\\Anyone\\Music\\Blind Guardian\\Legacy of the Dark Lands')
+os.chdir('C:\\Users\\Anyone\\Music\\My Little Pony\\cd3')
 
-url_list = ['https://www.youtube.com/watch?v=MnRT2uukgZk&list=PLddSkUxmPEC9pIdW125q0Ivv5d2p6uzmD&index=1',
-'https://www.youtube.com/watch?v=MnRT2uukgZk&list=PLddSkUxmPEC9pIdW125q0Ivv5d2p6uzmD&index=2',
-'https://www.youtube.com/watch?v=MnRT2uukgZk&list=PLddSkUxmPEC9pIdW125q0Ivv5d2p6uzmD&index=3',
-'https://www.youtube.com/watch?v=MnRT2uukgZk&list=PLddSkUxmPEC9pIdW125q0Ivv5d2p6uzmD&index=4',
-'https://www.youtube.com/watch?v=MnRT2uukgZk&list=PLddSkUxmPEC9pIdW125q0Ivv5d2p6uzmD&index=5',
-'https://www.youtube.com/watch?v=MnRT2uukgZk&list=PLddSkUxmPEC9pIdW125q0Ivv5d2p6uzmD&index=6',
-'https://www.youtube.com/watch?v=MnRT2uukgZk&list=PLddSkUxmPEC9pIdW125q0Ivv5d2p6uzmD&index=7',
-'https://www.youtube.com/watch?v=MnRT2uukgZk&list=PLddSkUxmPEC9pIdW125q0Ivv5d2p6uzmD&index=8',
-'https://www.youtube.com/watch?v=MnRT2uukgZk&list=PLddSkUxmPEC9pIdW125q0Ivv5d2p6uzmD&index=9',
-'https://www.youtube.com/watch?v=MnRT2uukgZk&list=PLddSkUxmPEC9pIdW125q0Ivv5d2p6uzmD&index=10',
-'https://www.youtube.com/watch?v=MnRT2uukgZk&list=PLddSkUxmPEC9pIdW125q0Ivv5d2p6uzmD&index=11',
-'https://www.youtube.com/watch?v=MnRT2uukgZk&list=PLddSkUxmPEC9pIdW125q0Ivv5d2p6uzmD&index=12',
-'https://www.youtube.com/watch?v=MnRT2uukgZk&list=PLddSkUxmPEC9pIdW125q0Ivv5d2p6uzmD&index=13',
-'https://www.youtube.com/watch?v=MnRT2uukgZk&list=PLddSkUxmPEC9pIdW125q0Ivv5d2p6uzmD&index=14',
-'https://www.youtube.com/watch?v=MnRT2uukgZk&list=PLddSkUxmPEC9pIdW125q0Ivv5d2p6uzmD&index=15',
-'https://www.youtube.com/watch?v=MnRT2uukgZk&list=PLddSkUxmPEC9pIdW125q0Ivv5d2p6uzmD&index=16',
-'https://www.youtube.com/watch?v=MnRT2uukgZk&list=PLddSkUxmPEC9pIdW125q0Ivv5d2p6uzmD&index=17',
-'https://www.youtube.com/watch?v=MnRT2uukgZk&list=PLddSkUxmPEC9pIdW125q0Ivv5d2p6uzmD&index=18',
-'https://www.youtube.com/watch?v=MnRT2uukgZk&list=PLddSkUxmPEC9pIdW125q0Ivv5d2p6uzmD&index=19',
-'https://www.youtube.com/watch?v=MnRT2uukgZk&list=PLddSkUxmPEC9pIdW125q0Ivv5d2p6uzmD&index=20',
-'https://www.youtube.com/watch?v=MnRT2uukgZk&list=PLddSkUxmPEC9pIdW125q0Ivv5d2p6uzmD&index=21',
-'https://www.youtube.com/watch?v=MnRT2uukgZk&list=PLddSkUxmPEC9pIdW125q0Ivv5d2p6uzmD&index=22',
-'https://www.youtube.com/watch?v=MnRT2uukgZk&list=PLddSkUxmPEC9pIdW125q0Ivv5d2p6uzmD&index=23',
-'https://www.youtube.com/watch?v=MnRT2uukgZk&list=PLddSkUxmPEC9pIdW125q0Ivv5d2p6uzmD&index=24',
-'https://www.youtube.com/watch?v=MnRT2uukgZk&list=PLddSkUxmPEC9pIdW125q0Ivv5d2p6uzmD&index=25',
-'https://www.youtube.com/watch?v=MnRT2uukgZk&list=PLddSkUxmPEC9pIdW125q0Ivv5d2p6uzmD&index=26',
-'https://www.youtube.com/watch?v=MnRT2uukgZk&list=PLddSkUxmPEC9pIdW125q0Ivv5d2p6uzmD&index=27']
+url_list = [
+'https://www.youtube.com/watch?v=oAemYgwNCBo',
+'https://www.youtube.com/watch?v=fphUZV7dKUw',
+'https://www.youtube.com/watch?v=xthcbwng0Uo',
+'https://www.youtube.com/watch?v=hAXX_bPxIzY&t=65s',
+'https://www.youtube.com/watch?v=utyk5gHOAU0',
+'https://www.youtube.com/watch?v=hZUew-9HPI8',
+'https://www.youtube.com/watch?v=-bboX3LpWpE',
+'https://www.youtube.com/watch?v=tao1Ic8qVkM',
+'https://www.youtube.com/watch?v=dkTPatXRyh0',
+'https://www.youtube.com/watch?v=L9BAeyZhAdE',
+'https://www.youtube.com/watch?v=WOF3BkkRPSs',
+'https://www.youtube.com/watch?v=GpDcVY4F3QQ',
+'https://www.youtube.com/watch?v=ExgxOxPFVj4',
+'https://www.youtube.com/watch?v=ep0uCcIF2Y8',
+'https://www.youtube.com/watch?v=GU1zVxYNDRY',
+'https://www.youtube.com/watch?v=9aJyDsL2wMU',
+'https://www.youtube.com/watch?v=F5-BAYPoqdY', #christmas
+'https://www.youtube.com/watch?v=tjVWPszPP5I',
+'https://www.youtube.com/watch?v=Jqd88q-7wI0', #less
+'https://www.youtube.com/watch?v=7qhsmjeQyyA', #less
+'https://www.youtube.com/watch?v=EmVRhL1ocjA',
+'https://www.youtube.com/watch?v=U3RGU90y79k']
 
 
 def download_youtube_music(url_address):
